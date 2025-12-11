@@ -1,0 +1,63 @@
+flavors:
+  clientA_dev:
+    app:
+      name: "Client A Dev"
+    android:
+      applicationId: "com.example.clientA.dev"
+      flavorDimensions: "client", "environment"
+
+  clientA_qa:
+    app:
+      name: "Client A QA"
+    android:
+      applicationId: "com.example.clientA.qa"
+      flavorDimensions: "client"
+
+  clientA_prod:
+    app:
+      name: "Client A"
+    android:
+      applicationId: "com.example.clientA"
+      flavorDimensions: "client"
+
+  clientB_dev:
+    app:
+      name: "Client B Dev"
+    android:
+      applicationId: "com.example.clientB.dev"
+      flavorDimensions: "client"
+
+  clientB_qa:
+    app:
+      name: "Client B QA"
+    android:
+      applicationId: "com.example.clientB.qa"
+      flavorDimensions: "client"
+
+  clientB_prod:
+    app:
+      name: "Client B"
+    android:
+      applicationId: "com.example.clientB"
+      flavorDimensions: "client"
+
+  clientC_dev:
+    app:
+      name: "Client C Dev"
+    android:
+      applicationId: "com.example.clientC.dev"
+      flavorDimensions: "client"
+
+  clientC_qa:
+    app:
+      name: "Client C QA"
+    android:
+      applicationId: "com.example.clientC.qa"
+      flavorDimensions: "client"
+
+  clientC_prod:
+    app:
+      name: "Client C"
+    android:
+      applicationId: "com.example.clientC"
+      flavorDimensions: "client"
