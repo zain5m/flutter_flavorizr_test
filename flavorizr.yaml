@@ -1,63 +1,65 @@
+app:
+  android:
+    flavorDimensions: clients
 flavors:
-  clientA_dev:
+  eastMed_dev:
     app:
-      name: "Client A Dev"
+      name: "EastMed Dev"
+      icon: "assets/images/flavors/east_med/AppLogo1.png"
     android:
-      applicationId: "com.example.clientA.dev"
-      flavorDimensions: "client", "environment"
+      applicationId: "com.example.eastMed.east_med"
 
-  clientA_qa:
+  eastMed_qa:
     app:
-      name: "Client A QA"
+      name: "EastMed QA"
+      icon: "assets/images/flavors/east_med/AppLogo1.png"
     android:
-      applicationId: "com.example.clientA.qa"
-      flavorDimensions: "client"
+      applicationId: "com.example.eastMed.qa"
 
-  clientA_prod:
+  eastMed_prod:
     app:
-      name: "Client A"
+      name: "EastMed"
+      icon: "assets/images/flavors/east_med/AppLogo1.png"
     android:
-      applicationId: "com.example.clientA"
-      flavorDimensions: "client"
+      applicationId: "com.example.eastMed"
 
-  clientB_dev:
+  solidarity_dev:
     app:
-      name: "Client B Dev"
+      name: "Solidarity Dev"
+      icon: 'assets/images/flavors/solidarity/logo.png'
     android:
-      applicationId: "com.example.clientB.dev"
-      flavorDimensions: "client"
+      applicationId: "com.example.solidarity.east_med"
 
-  clientB_qa:
+  solidarity_qa:
     app:
-      name: "Client B QA"
+      name: "Solidarity QA"
+      icon: 'assets/images/flavors/solidarity/logo.png'
     android:
-      applicationId: "com.example.clientB.qa"
-      flavorDimensions: "client"
+      applicationId: "com.example.solidarity.qa"
 
-  clientB_prod:
+  solidarity_prod:
     app:
-      name: "Client B"
+      name: "Solidarity B"
+      icon: 'assets/images/flavors/solidarity/logo.png'
     android:
-      applicationId: "com.example.clientB"
-      flavorDimensions: "client"
+      applicationId: "com.example.solidarity"
 
-  clientC_dev:
-    app:
-      name: "Client C Dev"
-    android:
-      applicationId: "com.example.clientC.dev"
-      flavorDimensions: "client"
 
-  clientC_qa:
-    app:
-      name: "Client C QA"
-    android:
-      applicationId: "com.example.clientC.qa"
-      flavorDimensions: "client"
 
-  clientC_prod:
-    app:
-      name: "Client C"
-    android:
-      applicationId: "com.example.clientC"
-      flavorDimensions: "client"
+ide: idea
+
+
+#instructions:
+#  - assets:download
+#  - assets:extract
+#  - android:androidManifest
+#  - android:flavorizrGradle
+#  - android:buildGradle
+#    - android:dummyAssets
+#    - android:icons
+#  - flutter:flavors
+#  - flutter:app
+#  - flutter:pages
+#  - flutter:main
+#  - assets:clean
+#  - ide:config
